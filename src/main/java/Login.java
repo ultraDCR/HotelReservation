@@ -35,8 +35,8 @@ try{
 		}
 	else if(!rs1.next()&&!rs2.next()){
 			request.setAttribute("alertMsg", "Username or password incorrect");
-			RequestDispatcher rd=request.getRequestDispatcher("/Failure.jsp");
-			rd.include(request,response);
+			RequestDispatcher rd=request.getRequestDispatcher("/login.jsp");
+			rd.forward(request,response);
 	}
 		}catch(Exception e){
 			

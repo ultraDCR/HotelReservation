@@ -3,7 +3,7 @@
     Created on : Sep 13, 2017, 6:43:01 PM
     Author     : Ranjan
 --%>
-
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html>
     <head>
@@ -20,6 +20,12 @@
             Password:<input type="password" placeholder="Password" name="pass"/></br></br>
             <input id="loginbtn" type="submit" value="Login" />
             </form>
+               
+                    <c:if test="${not empty alertMsg}">
+                    <c:out value="${alertMsg}"/>
+                </c:if>
+               
+           
             </br></br>
 			<label>Doesn't have account? </label>
             <a href="./register.jsp">Register now </a>
