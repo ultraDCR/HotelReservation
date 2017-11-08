@@ -1,0 +1,50 @@
+/*Default style for body*/
+body{
+	background-color: #67BCDB; 
+	margin: 0px;
+	font-family: Verdana, Georgia, serif;
+	font-size: 14px;
+}
+header{
+	margin:auto;
+	height : 100px;
+	background-color:#F5F3EE;
+	
+	
+	}
+#user{
+	float:right;
+	font-family: Verdana, Georgia, serif;
+}
+.img{
+	width : 100px;
+	height : 100px;
+	float:left;
+	
+}
+.e{
+	background-color:#1EF7E5;
+	position : block;
+	position:relative;
+	width : 50%;
+	display:inline-block; 
+	margin: 10px;
+	color:#fff;
+	text-decoration: none;
+}
+#content {
+	
+	background-color: #fff;
+	text-align :center;
+	font-family: Verdana, Georgia, serif;
+	font-size: 40px;
+}
+.e p{
+	
+	font-size: 24px;
+	
+}
+a{
+	color:#fff;
+		text-decoration: none;
+}
